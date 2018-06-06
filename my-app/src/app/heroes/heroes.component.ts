@@ -7,7 +7,7 @@ import { HeroService } from '../hero.service';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
-//同步测试
+
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
